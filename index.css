@@ -16,7 +16,7 @@ body{
 	font-size:16px;
 }
 .page-one{
-	background: url("https://imgur.com/OBOmxhN.jpg");
+	background: url("http://imgur.com/OBOmxhN.jpg");
 	background-size:cover;
 	font-family: sans-serif;
 	text-align:center;
@@ -77,7 +77,7 @@ body{
 }
 
 .pagetwo{
-	background:url("https://i.imgur.com/vekYdLZ.jpg");
+	background:url("http://i.imgur.com/vekYdLZ.jpg");
     background-size: cover;
     height:650px;
     font-family: sans-serif;
