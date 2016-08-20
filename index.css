@@ -1,0 +1,203 @@
+.navbar{
+  font-size: 1.5em;
+  background-color: black;
+  font-family: sans-serif;
+  color: black;
+}
+
+.navbar-brand{
+	font-size: 1.5em;
+}
+
+.fa{
+	color: #337aa9;
+}
+body{
+	font-size:16px;
+}
+.page-one{
+	background: url("https://imgur.com/OBOmxhN.jpg");
+	background-size:cover;
+	font-family: sans-serif;
+	text-align:center;
+	color: #337aa9;
+	height:800px;
+    width: 100%;
+    margin-top:-6%;
+}
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    width: 500px;
+    height: 180px;
+    background-color: none;
+    opacity: 0.1;
+    flex-wrap :wrap; 
+   padding-top: 8%
+    }
+
+ .cont1{
+ 	 margin-left: auto;
+    margin-right: auto;
+    padding-top: 3%;
+    opacity:1;
+    color:white;
+ }
+
+.flex-item {
+     background-color:black;   
+    width: 100%;
+    height: auto;
+    opacity:0.7;
+    margin-top: 40%;
+    border-radius:2%;
+}
+
+.btn-default{
+	background: black;
+	border-color: black;
+	color: #337aa9;
+	font-size: 1.4em;
+}
+
+.btn-list{
+	margin-top: 2%;
+	vertical-align: middle;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.pageonetitle{
+	font-size:4em;
+}
+
+.navbar{
+	opacity: 0;
+}
+
+.pagetwo{
+	background:url("https://i.imgur.com/vekYdLZ.jpg");
+    background-size: cover;
+    height:650px;
+    font-family: sans-serif;
+	text-align:center;
+	margin-top:-4%;
+}
+
+.pagepadding{
+	padding-top:4%;
+	font-size: 5.5em;
+}
+
+.paragraph{
+	font-size:2em;
+}
+
+.pagethree{
+	background-color:#18bb9c;
+	background-size:cover;
+	font-family: "Times New Roman";
+	height:100%;
+	margin-top: 0%;
+}
+
+.pagefour{
+	background:url("http://imgur.com/ysfgZsu.jpg");
+	background-size:cover;
+	font-family: "Times New Roman";
+	height:600px;
+}
+
+.contform{
+	padding-top: 5%;
+    font-size:5em;   
+}
+
+.gitfont{
+	font-size:2em;
+	color:black;
+	display:inline-block;
+}
+
+
+.manage-width{
+	width:40%;
+	margin-bottom: 5%;
+}
+
+.pad{
+	padding:10%;
+	 text-align: center;
+}
+
+.alpha{
+	width:100%;
+margin-left: 77%;
+
+}
+
+@media screen and (max-width: 850px)
+{
+.paragraph{
+	font-size:1.5em;
+}
+}
+
+@media screen and (max-width: 520px)
+{
+.flex-container{
+	width:100%;
+}
+}
+
+
+
+@media screen and (max-width: 480px)
+{
+	.navbar{
+		opacity:1;
+	}
+	.pagepadding{
+		font-size:4em;
+	}
+	.flex-item{
+		font-size:10px;
+		font-family:"Times New Roman";
+		color:white;
+		width:100%;
+		background-size: cover;
+		}
+	.flex-container{
+		width:90%;
+	}
+	h3{
+		
+		font-size:2em;
+		}
+	.pageonetitle{
+		font-size:6em;
+		}
+  
+		.paragraph{
+			font-size: 1.2em;
+		}
+		.page-one{
+        height:600px;
+		}
+		
+		.pagefour{
+			height:1000px;
+		}
+}
+
+@media screen and (max-width: 324px)
+
+{
+
+	.pageonetitle{
+		font-size: 4em;
+	}
+	h3{
+		font-size: 2em;
+	}
