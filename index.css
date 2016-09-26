@@ -102,6 +102,16 @@ body{
 	margin-top: 0%;
 }
 
+.projects{
+padding-top: 2%;
+}
+
+.project1{
+width:50%;
+height:auto;
+font-size: 1.2em;
+}
+
 .pagefour{
 	background:url("http://imgur.com/ysfgZsu.jpg");
 	background-size:cover;
@@ -148,6 +158,12 @@ margin-left: 77%;
 {
 .flex-container{
 	width:100%;
+}
+ .project1{
+width:90%;
+height:auto;
+font-size: 1em;
+
 }
 }
 
