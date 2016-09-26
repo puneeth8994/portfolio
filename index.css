@@ -16,7 +16,7 @@ body{
 	font-size:16px;
 }
 .page-one{
-	background: url("http://imgur.com/OBOmxhN.jpg");
+	background: url("https://imgur.com/OBOmxhN.jpg");
 	background-size:cover;
 	font-family: sans-serif;
 	text-align:center;
@@ -77,13 +77,15 @@ body{
 }
 
 .pagetwo{
-	background:url("http://i.imgur.com/vekYdLZ.jpg");
+	background:url("https://i.imgur.com/vekYdLZ.jpg");
     background-size: cover;
-    height:650px;
+    height:100%;
     font-family: sans-serif;
 	text-align:center;
 	margin-top:-4%;
+	padding-bottom: 15%;
 }
+
 
 .pagepadding{
 	padding-top:4%;
@@ -100,6 +102,16 @@ body{
 	font-family: "Times New Roman";
 	height:100%;
 	margin-top: 0%;
+}
+
+.projects{
+padding-top: 2%;
+}
+
+.project1{
+width:50%;
+height:auto;
+font-size: 1.2em;
 }
 
 .pagefour{
@@ -137,6 +149,10 @@ margin-left: 77%;
 
 }
 
+.msgsize{
+	height:80px;
+}
+
 @media screen and (max-width: 850px)
 {
 .paragraph{
@@ -148,6 +164,12 @@ margin-left: 77%;
 {
 .flex-container{
 	width:100%;
+}
+.project1{
+width:90%;
+height:auto;
+font-size: 1em;
+
 }
 }
 
@@ -201,3 +223,5 @@ margin-left: 77%;
 	h3{
 		font-size: 2em;
 	}
+
+}
